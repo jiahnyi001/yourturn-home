@@ -1,4 +1,21 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/s/:id", "destination": "https://cards.playyourturn.app/s/:id", "permanent": true },
+    { "source": "/", "has": [{ "type": "query", "key": "deck" }], "destination": "https://cards.playyourturn.app/", "permanent": true },
+    { "source": "/", "has": [{ "type": "query", "key": "make" }], "destination": "https://cards.playyourturn.app/", "permanent": true },
+    { "source": "/", "has": [{ "type": "query", "key": "lang" }], "destination": "https://cards.playyourturn.app/", "permanent": true },
+    { "source": "/en", "has": [{ "type": "query", "key": "deck" }], "destination": "https://cards.playyourturn.app/en", "permanent": true },
+    { "source": "/en", "has": [{ "type": "query", "key": "make" }], "destination": "https://cards.playyourturn.app/en", "permanent": true },
+    { "source": "/:page(about|guide|faq|ask|contact|privacy|admin)", "destination": "https://cards.playyourturn.app/:page", "permanent": true },
+    { "source": "/:page(about|guide|faq|ask|contact|privacy|admin).html", "destination": "https://cards.playyourturn.app/:page", "permanent": true },
+    { "source": "/en/:path+", "destination": "https://cards.playyourturn.app/en/:path+", "permanent": true },
+    { "source": "/ja", "destination": "https://cards.playyourturn.app/ja", "permanent": true },
+    { "source": "/ja/:path+", "destination": "https://cards.playyourturn.app/ja/:path+", "permanent": true },
+    { "source": "/blog", "destination": "https://cards.playyourturn.app/blog", "permanent": true },
+    { "source": "/blog/:path+", "destination": "https://cards.playyourturn.app/blog/:path+", "permanent": true },
+    { "source": "/decks", "destination": "https://cards.playyourturn.app/decks", "permanent": true },
+    { "source": "/decks/:path+", "destination": "https://cards.playyourturn.app/decks/:path+", "permanent": true }
+  ]
 }

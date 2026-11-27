@@ -20,3 +20,7 @@ analytics.js의 `MEASUREMENT_ID`에 GA4 측정 ID를 넣으면 켜진다. 비어
 ## 의도 문서
 
 `jiahnyi001/yourturn` 저장소의 `docs/intent/game-home.md`
+
+## 옛 카드 게임 주소 넘기기
+
+`playyourturn.app`은 원래 카드 게임 주소였다. 옛 링크가 깨지지 않도록 vercel.json의 `redirects`가 카드 게임 경로를 `cards.playyourturn.app`으로 308 리다이렉트한다. 긴 공유 링크(`#z-...` 꼴)는 index.html 맨 위의 짧은 스크립트가 넘긴다.

@@ -1,8 +1,8 @@
 /* 방문 분석 (Google Analytics 4).
    MEASUREMENT_ID가 비어 있으면 아무것도 불러오지 않고 아무것도 모으지 않는다.
-   홈용 GA4 속성을 만든 뒤 G-로 시작하는 측정 ID를 아래에 넣는다. */
+   홈용 GA4 속성(Your Turn Home)의 측정 ID. */
 (() => {
-  const MEASUREMENT_ID = '';
+  const MEASUREMENT_ID = 'G-PFZ26WC9NY';
 
   if (!MEASUREMENT_ID || /^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return;
 

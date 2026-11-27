@@ -15,7 +15,7 @@
 
 ## 방문 분석
 
-analytics.js의 `MEASUREMENT_ID`에 GA4 측정 ID를 넣으면 켜진다. 비어 있으면 아무것도 모으지 않는다.
+analytics.js의 `MEASUREMENT_ID`가 GA4 측정 ID다 (속성 이름: Your Turn Home). 비우면 아무것도 모으지 않는다.
 
 ## 의도 문서
 
